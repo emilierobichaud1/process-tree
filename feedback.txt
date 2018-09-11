@@ -1,0 +1,27 @@
+commandline (0 / 9)
+  failed test_cmdline_invalid_flag
+  failed test_cmdline_nonnumeric_d_flag
+  failed test_cmdline_nonnumeric_pid
+  failed test_cmdline_pid_and_d_valid
+  failed a test due to a *segmentation fault*
+
+print_ptree (9 / 9)
+
+
+generate_from_files (6 / 10)
+  failed test_treegen_in_tests_child_PID_not_found
+  failed test_treegen_in_tests_child_PID_not_found_build_continues
+  failed test_treegen_in_tests_child_exe_not_found
+  failed test_treegen_in_tests_child_exe_not_found_build_continues
+  failed test_treegen_in_tests_children_file_not_exist
+  failed test_treegen_in_tests_cmdline_empty
+  failed test_treegen_in_tests_cmdline_not_exist
+  failed test_treegen_in_tests_cmdline_path
+  failed test_treegen_in_tests_no_children
+  failed test_treegen_in_tests_task_not_exist
+
+generate_from_proc (0 / 2)
+  failed test_treegen_in_proc_multiple_children_multiple_grandchildren
+  failed test_treegen_in_proc_no_children
+  failed test_treegen_in_proc_one_child
+15.00 / 30
